@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
+	<!-- Customizacion peronal -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -39,12 +40,11 @@
       	<li class="active"><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="noticias.html">Noticias</a></li>
-        <li><a href="index#contacto">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 <!-- body -->
 
 <div class="jumbotron">
@@ -108,46 +108,78 @@
 
 
 <!-- footer -->
-<footer>
-	<div class="panel-footer container">
-		<div class="row">
-			<div class="col-md-4">
-				<h2>Contacto</h2>
-				<div class="col-md-6">
-					<p>Telefono: </p>
-					<p>Nombre: </p>
-					<p>Correo: </p>
-					<p>Asunto: </p>
-					<p>Mensaje: </p>
+
+<div class="panel-footer container">
+	<div class="row">
+		<div class="col-md-5 col-sm-5">
+			<h2 id="contacto">Contacto</h2>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<p>Telefono: </p>
+					</div>
+					<div class="col-md-6">
+						<p>+56 2 22 675 54 32</p>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<p>+56 2 22 675 54 32</p>
-					<input type="textbox" name="" placeholder="Ingrese Nombre">
-					<input type="textbox" name="" placeholder="ejemplo@correo.com">
-					<input type="textbox" name="" placeholder="Asunto">
-					<input type="textbox" name="" placeholder="--Ingrese Mensaje--">
-					<button type="button" name="" class="btn btn-success">Enviar</button>
-					<button type="button" class="btn btn-primary">Limpiar</button>
+
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<p>Nombre: </p>
+					</div>
+					<div class="col-md-6">
+						<input type="textbox" name="" placeholder="Ingrese Nombre">
+					</div>
 				</div>
-				<h2>Redes Sociales</h2>
-				<div class="col-md-4">
-					<a href="#"><img src="Facebook.png"></a>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<p>Correo: </p>
+					</div>
+					<div class="col-md-6">
+						<input type="textbox" name="" placeholder="ejemplo@correo.com">
+					</div>
 				</div>
-				<div class="col-md-4">
-					<a href="#"><img src="GooglePlus.png"></a>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<p>Asunto: </p>
+					</div>
+					<div class="col-md-6">
+						<input type="textbox" name="" placeholder="Asunto">
+					</div>
 				</div>
-				<div class="col-md-4">
-					<a href="#"><img src="Twitter.png"></a>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<p>Mensaje: </p>
+					</div>
+					<div class="col-md-6">
+						<input type="textbox" name="" placeholder="--Ingrese Mensaje--">
+					</div>
 				</div>
-			</div>
-			<div class="col-md-offset-2 col-md-6">
-				<div class="embed-responsive embed-responsive-4by3">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
+				<div class="col-md-offset-4 col-md-8">
+					<div class="col-md-6">
+						<button type="button" class="btn btn-primary">Limpiar</button>
+					</div>
+					<div class="col-md-6">
+						<button type="button" class="btn btn-success">Enviar</button>
+					</div>
 				</div>	
+
+			<h2>Redes Sociales</h2>
+			<div class="col-md-9">
+				<a href="#"><img src="facebook.png"></a>
+			
+				<a href="#"><img src="google+.png"></a>
+			
+				<a href="#"><img src="twitter.png"></a>
 			</div>
 		</div>
+		<div class="col-md-offset-1 col-md-6">
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
+			</div>	
+		</div>
 	</div>
-</footer>
+</div>
+
 
 </body>
 </html>
