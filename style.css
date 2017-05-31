@@ -3,11 +3,23 @@
 	margin: 20px 0;
 }
 
+.margin-arriba{
+	margin-bottom: 60px;
+}
+
 /* estilos locales */
 
-/* index */
+	/* index */
+	.jumbotron{
+		background-color: white;
+		border: dashed lightgrey 2px;
+		margin: 0;
+	}
+	/* mensaje en carrusel */
+	.carousel-caption{
+		color: rgba(128,250,128,0.6);
+	}
+	.glyphicon{
+		color: black;
+	}
 
-
-.jumbotron{
-	background-color: orange;
-}

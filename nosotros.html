@@ -16,11 +16,20 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<title>Asperger Chile</title>
+
+<style>
+	@media(min-width: 0) and (max-width: 995px){
+		.hide-small{
+			display: none;
+		}
+	}
+</style>
+
 </head>
 <body>
 
 <!-- navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -47,7 +56,7 @@
 </nav>
 
 <!-- body -->
-
+<div class="margin-arriba"></div>
 <div class="container">
 	<div class="col-md-offset-1">
 		<div class="col-md-7">
@@ -93,10 +102,10 @@
 			</ul>
 		</div>
 		<div class="col-md-4">
-			<div class="img-thumbnail">
+			<div class="img-thumbnail hide-small">
 				<img src="Somos2.jpg">
 			</div>
-			<div class="img-thumbnail">
+			<div class="img-thumbnail hide-small">
 				<img src="Somos1.jpg">
 			</div>
 			<div class="img-thumbnail">
@@ -151,7 +160,7 @@
 						<p>Mensaje: </p>
 					</div>
 					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="--Ingrese Mensaje--">
+						<textarea name="comentarios" rows="5" cols="30" placeholder="--Escribe Mensaje--"></textarea>
 					</div>
 				</div>
 				<div class="col-md-offset-4 col-md-8">
