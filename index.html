@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<!-- Customizacion peronal -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -48,45 +49,47 @@
 <!-- body -->
 <div class="margin-arriba"></div>
 
-<div class="jumbotron">
-	<div class="container">
-		<!-- carrusel -->
-		<!-- smiling peeps -->
-        <div class="col-md-offset-4 col-md-4">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			  </ol>
-			  <!-- Wrapper for slides -->
-				<div class="carousel-inner">
-                    <div class="item active carouselFiximg">
-                        <img src="photo.jpg">
-                    </div>
-                    <div class="item carouselFiximg">
-                        <img src="photo2.jpg">
-                    </div>
-                    <div class="item carouselFiximg">
-                        <img src="photo3.jpg">
-                    </div>
-            	</div>
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>	
+<div class="container">
+	<div class="jumbotron">
+		<div class="container">
+			<!-- carrusel -->
+			<!-- smiling peeps -->
+	        <div class="col-md-offset-4 col-md-4">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+				  <!-- Wrapper for slides -->
+					<div class="carousel-inner">
+	                    <div class="item active carouselFiximg">
+	                        <img src="photo.jpg">
+	                    </div>
+	                    <div class="item carouselFiximg">
+	                        <img src="photo2.jpg">
+	                    </div>
+	                    <div class="item carouselFiximg">
+	                        <img src="photo3.jpg">
+	                    </div>
+	            	</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>	
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- fin carrusel -->
-<div class="container">
+<div class="titular container">
 	<h3>Noticias Importantes</h3>
 	<div class="row">
 		<div class="col-md-6">
@@ -139,80 +142,80 @@
 	</div>
 </div>
 
-
 <!-- footer -->
 
-<div class="panel-footer container">
-	<div class="row">
-		<div class="col-md-5 col-sm-5">
-			<h2 id="contacto">Contacto</h2>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Telefono: </p>
+<div class="panel-footer">
+	<div class="titular container">
+		<div class="row">
+			<div class="col-md-5 col-sm-5">
+				<h2 id="contacto">Contacto</h2>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Telefono: </p>
+						</div>
+						<div class="col-md-6">
+							<p>+56 2 22 675 54 32</p>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<p>+56 2 22 675 54 32</p>
-					</div>
-				</div>
 
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Nombre: </p>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Nombre: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" name="" placeholder="Ingrese Nombre">
+						</div>
 					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="Ingrese Nombre">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Correo: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" placeholder="ejemplo@correo.com">
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Correo: </p>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Asunto: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" placeholder="Asunto">
+						</div>
 					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="ejemplo@correo.com">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Mensaje: </p>
+						</div>
+						<div class="col-md-6">
+							<textarea name="comentarios" rows="5" cols="30" placeholder="--Escribe Mensaje--"></textarea>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Asunto: </p>
-					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="Asunto">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Mensaje: </p>
-					</div>
-					<div class="col-md-6">
-						<textarea name="comentarios" rows="5" cols="30" placeholder="--Escribe Mensaje--"></textarea>
-					</div>
-				</div>
-				<div class="col-md-offset-4 col-md-8">
-					<div class="col-md-6">
-						<button type="button" class="btn btn-primary">Limpiar</button>
-					</div>
-					<div class="col-md-6">
-						<button type="button" class="btn btn-success">Enviar</button>
-					</div>
-				</div>	
+					<div class="col-md-offset-4 col-md-8">
+						<div class="col-md-6">
+							<button type="button" class="btn btn-primary">Limpiar</button>
+						</div>
+						<div class="col-md-6">
+							<button type="button" class="btn btn-success">Enviar</button>
+						</div>
+					</div>	
 
-			<h2>Redes Sociales</h2>
-			<div class="col-md-9">
-				<a href="#"><img src="facebook.png"></a>
-			
-				<a href="#"><img src="google+.png"></a>
-			
-				<a href="#"><img src="twitter.png"></a>
+				<h2>Redes Sociales</h2>
+				<div class="col-md-9">
+					<a href="#"><img src="facebook.png"></a>
+				
+					<a href="#"><img src="google+.png"></a>
+				
+					<a href="#"><img src="twitter.png"></a>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-offset-1 col-md-6">
-			<div class="embed-responsive embed-responsive-4by3">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
-			</div>	
+			<div class="col-md-offset-1 col-md-6">
+				<div class="embed-responsive embed-responsive-4by3">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
+				</div>	
+			</div>
 		</div>
 	</div>
 </div>
-
 
 </body>
 </html>

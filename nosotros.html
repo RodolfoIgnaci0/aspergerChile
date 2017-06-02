@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<!-- Customizacion peronal -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -60,7 +61,7 @@
 <div class="container">
 	<div class="col-md-offset-1">
 		<div class="col-md-7">
-			<h4>¿Quiénes somos?</h4>
+			<h4 class="titular">¿Quiénes somos?</h4>
 			<p>Asperger Chile nace el 22 de Mayo de 2008, como una comunidad virtual desde la 
 			plataforma Facebook.</p>
 			<p>Somos familias de todo Chile, con realidades socioeconómicas transversales, pero todas tenemos un lugar común: la vida escolar de nuestros hijos, lejos de ser una experiencia motivadora, es una
@@ -77,15 +78,15 @@
 			<div class="col-md-6">
 				<div class="thumbnail">
 					<img class="img-responsive" src="img-muj.jpg">
-					<p>Lorena Díaz Puratic</p> 
-					<p>Directora Ejecutiva</p>
+					<p class="text-center">Lorena Díaz Puratic</p> 
+					<p class="text-center">Directora Ejecutiva</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="thumbnail">
 					<img class="img-responsive" src="img-hom.jpg">
-					<p>James Born</p>
-					<p>Director Asuntos Internacionales</p>
+					<p class="text-center">James Born</p>
+					<p class="text-center">Director Asuntos Internacionales</p>
 				</div>
 			</div>	
 			
@@ -118,76 +119,79 @@
 
 
 <!-- footer -->
-<div class="panel-footer container">
-	<div class="row">
-		<div class="col-md-5 col-sm-5">
-			<h2 id="contacto">Contacto</h2>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Telefono: </p>
+<div class="panel-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-5">
+				<h2 id="contacto">Contacto</h2>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Telefono: </p>
+						</div>
+						<div class="col-md-6">
+							<p>+56 2 22 675 54 32</p>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<p>+56 2 22 675 54 32</p>
-					</div>
-				</div>
 
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Nombre: </p>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Nombre: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" name="" placeholder="Ingrese Nombre">
+						</div>
 					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="Ingrese Nombre">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Correo: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" placeholder="ejemplo@correo.com">
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Correo: </p>
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Asunto: </p>
+						</div>
+						<div class="col-md-6">
+							<input type="textbox" placeholder="Asunto">
+						</div>
 					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="ejemplo@correo.com">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<p>Mensaje: </p>
+						</div>
+						<div class="col-md-6">
+							<textarea name="comentarios" rows="5" cols="30" placeholder="--Escribe Mensaje--"></textarea>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Asunto: </p>
-					</div>
-					<div class="col-md-6">
-						<input type="textbox" name="" placeholder="Asunto">
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<p>Mensaje: </p>
-					</div>
-					<div class="col-md-6">
-						<textarea name="comentarios" rows="5" cols="30" placeholder="--Escribe Mensaje--"></textarea>
-					</div>
-				</div>
-				<div class="col-md-offset-4 col-md-8">
-					<div class="col-md-6">
-						<button type="button" class="btn btn-primary">Limpiar</button>
-					</div>
-					<div class="col-md-6">
-						<button type="button" class="btn btn-success">Enviar</button>
-					</div>
-				</div>	
+					<div class="col-md-offset-4 col-md-8">
+						<div class="col-md-6">
+							<button type="button" class="btn btn-primary">Limpiar</button>
+						</div>
+						<div class="col-md-6">
+							<button type="button" class="btn btn-success">Enviar</button>
+						</div>
+					</div>	
 
-			<h2>Redes Sociales</h2>
-			<div class="col-md-9">
-				<a href="#"><img src="facebook.png"></a>
-			
-				<a href="#"><img src="google+.png"></a>
-			
-				<a href="#"><img src="twitter.png"></a>
+				<h2>Redes Sociales</h2>
+				<div class="col-md-9">
+					<a href="#"><img src="facebook.png"></a>
+				
+					<a href="#"><img src="google+.png"></a>
+				
+					<a href="#"><img src="twitter.png"></a>
+				</div>
 			</div>
-		</div>
-		<div class="col-md-offset-1 col-md-6">
-			<div class="embed-responsive embed-responsive-4by3">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
-			</div>	
+			<div class="col-md-offset-1 col-md-6">
+				<div class="embed-responsive embed-responsive-4by3">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6658.897139345619!2d-70.56944322208957!3d-33.43761804960116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1495942777967"></iframe>
+				</div>	
+			</div>
 		</div>
 	</div>
 </div>
+
 
 
 </body>
